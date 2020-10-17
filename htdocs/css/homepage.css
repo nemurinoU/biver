@@ -1,0 +1,533 @@
+/***
+============================================
+
+HOME PAGE CSS
+
+============================================
+
+HEAD
+***/
+*:not(body,#body,#body2,#footer)
+{
+	overflow: hidden;
+}
+body,#body,#body2,#footer
+{
+	overflow-x: hidden;
+	margin:0 auto;
+}
+
+@font-face 
+{ 
+	font-family: Asap-Condensed;
+	src:url('../fonts/AsapCondensed-Regular.ttf');
+}
+@font-face 
+{ 
+	font-family: Asap-Bold;
+	src:url('../fonts/Asap-Bold.ttf');
+}
+@font-face 
+{ 
+	font-family: Amiko-Bold;
+	src:url('../fonts/Amiko-Bold.ttf');
+}
+@font-face{
+	font-family: Amiko-Regular;
+	src:url('../fonts/Amiko-Regular.ttf');
+}
+@font-face 
+{ 
+	font-family: Lovelo;
+	src:url('../fonts/Lovelo-Black.otf');
+}
+@font-face 
+{ 
+	font-family: Opensans-Light;
+	src:url('../fonts/OpenSans-CondLight.ttf');
+}
+@font-face 
+{ 
+	font-family: Inter-Regular;
+	src:url('../fonts/Inter-Regular.ttf');
+}
+@font-face 
+{
+	font-family: Asap Condensed Medium;
+	src:url('../fonts/AsapCondensed-Medium.ttf');
+}
+
+@font-face 
+{
+	font-family: Open Sans Bold;
+	src:url('../fonts/OpenSans-Bold.ttf');
+}
+
+@font-face 
+{
+	font-family: Inter;
+	src:url('../fonts/Inter-VariableFont_slnt,wght.ttf');
+}
+/*------------------------------------------------------*/
+body
+{
+	margin:0;
+	padding:0;
+}
+#nav
+{
+	height: 10vh;
+	position: relative;
+	background: white;
+}
+nav
+{
+	width: 98%;
+	height: 80%;
+	position: absolute;
+	text-align: center;
+	left:1%;
+	top:10%;
+}
+/*-----*/
+#div1_1
+{
+	overflow: hidden;
+	min-width:16vw;
+	float: left;
+	height:100%;
+}
+#div1_1 img
+{
+	height:100%;
+	vertical-align: middle;
+}
+/*-----*/
+#div1_1s
+{
+	display:inline-block;
+	height:100%;
+	vertical-align: middle;
+	padding-right:25%;
+	margin-left:7%;
+}
+#div1_1s h1
+{
+	font-size:4.5vh;
+	color:#2A5440;
+	font-family: Lovelo;
+	width:100%;
+	border-top:.6vh solid #2A5440;
+	border-bottom:.6vh solid #2A5440;
+	margin-top:5%;
+}
+/*-----*/
+#div1_2
+{
+	display:inline-block;
+	padding-top:2vh;
+	padding-bottom:1vh;
+	font-size: 3vh;
+	border-bottom: .5vh solid #3B7257;
+}
+#div1_2 a:not(#left)
+{
+	padding-left:2vw;
+}
+#div1_2 a:not(#right)
+{
+	padding-right:2vw;
+}
+#div1_2 a
+{
+	color:#3B7257;
+	font-family: Asap-Condensed
+}
+/*-----*/
+#div1_3
+{
+	overflow: hidden;
+	min-width:13vw;
+	float: right;
+	height:100%;
+}
+#div1_3 img
+{
+	padding-top:2.15vh;
+	display:inline-block;
+	height:50%;
+	margin-left:20%;
+}
+/*------------------------------------------------------*/
+#body
+{	
+	justify-content: center;
+	text-align: center;
+    position: relative; 
+    min-height:90vh;
+    height: auto;
+}
+#body::before 
+{    
+	background-image: radial-gradient(ellipse,rgba(0, 0 ,0, 0.1),rgba(0, 0 ,0, .7)),linear-gradient(rgba(0,0,0,0.1) 30%,rgba(0, 0 ,0, 1) 85%,rgba(0, 0, 0, 1) 100%),url("../images/background/tarsier2.jpg");
+    content: "";
+	background-size: cover;
+	background-position: center center;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: .9;
+}
+/*------------------------------------------------------*/
+#div2
+{
+	position: relative;
+	padding-top:7vh;
+}
+#div2_1
+{
+	text-align: left;
+	vertical-align: top;
+	display: inline-block;
+	color:white;
+	width:650px;
+	margin-right:5vw;
+	margin-bottom:5vw;
+}
+#div2_1 h1
+{  
+	font-size: 38px;
+	font-family: Amiko-Bold;
+	text-shadow: 2px 1px 2px #ffffff;
+	font-weight: 900;
+	letter-spacing: 0.1px;
+}
+#div2_1 p
+{	
+	font-family: Asap-Condensed;
+	font-size: 25px;
+	margin-top: 30px;
+	margin-bottom:30px;
+	text-shadow: 1px 1px 1px #222222;
+}
+
+form
+{
+	width:100%;
+	background: white;
+}
+form img
+{
+	margin-top:-5px;
+	margin-left:2px;
+	margin-right:2px;
+	vertical-align: middle;
+	height:40px;
+}
+input
+{
+	padding-top:5px;
+	border:0;
+	width:87.5%;
+	height:40px;
+	font-size:17px;
+	font-family:Amiko;
+}
+input:focus
+{
+	outline: none;
+}
+/*-----*/
+iframe
+{
+	margin-top:25px;
+	width:40vw;
+	height:44vh;
+	min-width:500px;
+	min-height:300px;
+	border:6px solid rgba(61, 60, 58, .55);
+}
+/*-----*/
+#div2_2 p
+{
+	text-align: left;
+	padding-top:11vh;
+	padding-bottom:16vh;
+	font-family: Opensans-Light;
+	font-size:2vh;
+	color:gray;
+	position: relative;
+}
+
+
+/***
+============================================
+
+BODY CSS
+
+============================================
+***/
+
+#body2
+{
+	padding-top:10vh;
+	justify-content:center;
+	text-align:center;
+	position:relative;
+	min-height:90vh;
+	width:100vw;
+	height:auto;
+	background:linear-gradient(rgba(0,0,0,1) 0%,rgba(0,0,0,.9) 40%,rgba(0,0,0,.9) 50%,rgba(0,0,0,.9) 60%,rgba(0,0,0,1) 100%);
+	opacity: .9;
+}
+/*------------------------------------------------------*/
+#div3_1
+{
+	text-align:left;
+	display: inline-block;
+	position:relative;
+	color:white;
+	margin-right:-5vw;
+	margin-bottom:15vh;
+}
+/*-----*/
+#news
+{
+	font-family: Asap-Bold;
+	font-size:35px;
+	border-left:15px solid #5BEBA6;
+	padding-left:20px;
+}
+/*-----*/
+#div3_1s
+{
+	margin-top:20px;
+}
+#div3_1s img
+{
+	height:17vh;
+	vertical-align: middle;
+}
+#div3_1s div
+{
+	width:22vw;
+	margin-top:-80px;
+	padding-left:20px;
+	display:inline-block;
+	vertical-align: middle;
+}
+/*-----*/
+#div3_1s #headline
+{
+	font-family: Asap-Condensed;
+	font-size:25px;
+}
+#div3_1s #author
+{
+	font-family: Inter-Regular;
+	margin-top:-20px;
+	font-size:15px;
+}
+/*-----*/
+#div3_1 h3
+{
+	font-size: 15px;
+	margin-top:22px;
+	width:76px;
+	font-family: Inter-Regular;
+	padding-bottom:5px;
+	border-bottom:5px solid #5BEBA6;
+}
+/*------------------------------------------------------*/
+#div3_2
+{
+	text-align:left;
+	display: inline-block;
+	position:relative;
+	width:42vw;
+	min-width:550px;
+	height:72.5vh;
+	color:white;
+	margin-bottom:15vh;
+}
+/*-----*/
+#bpanel
+{
+	border-radius:10px 10px 0 0;
+	min-height:25vh;
+	width:100%;
+	background-image: url("../images/articles/a.jpg");
+	background-size: 100%;	
+	padding-top:-25px;
+	margin-bottom:25px;
+	border-bottom:7px solid #5BEBA6;
+}
+#bpanel div
+{
+	font-size:13px;
+	color:white;
+	font-family: Asap-Condensed;
+	width:63px;
+	margin-left:15px;
+	padding-top:70px;
+	padding-bottom:8px;
+	border-bottom:4px solid white;
+}
+#bpanel h1
+{
+	color:white;
+	font-family: Amiko-Bold;
+	margin-top:8px;
+	font-size: 25px;
+	margin-left:15px;
+	width:70%;
+}
+/*-----*/
+#spanel1, #spanel2
+{
+	border-radius:0 0 10px 10px;
+	display: inline-block;
+	min-width:261px;
+	width:20vw;
+	background: black;
+}
+/*-----*/
+#spanel1
+{
+	float:right;
+}
+#spanel2
+{
+}
+/*-----*/
+#spanel1_img
+{
+	height:25vh;
+	background-image: url("../images/articles/b.jpg");
+	background-size: 100%;
+	border-bottom:7px solid #5BEBA6;
+}
+#spanel2_img
+{
+	height:25vh;
+	background-image: url("../images/articles/c.jpg");
+	background-size: 100%;
+	border-bottom:7px solid #5BEBA6;
+}
+#spanel1_img div, #spanel2_img div
+{
+	font-family: Asap-Condensed;
+	width:53px;
+	margin-left:15px;
+	padding-top:145px;
+	padding-bottom:5px;
+	font-size:11px;
+	border-bottom:2px solid white;
+}
+/*-----*/
+#spanel1 h3,#spanel2 h3
+{
+	min-height:5vh;
+	max-height:5vh;
+	font-family: Amiko-Bold;
+	padding-left:5%;
+	font-size:18px;
+}
+#spanel2 p, #spanel1 p
+{
+	font-size:15px;
+	font-family: Inter-Regular;
+	padding-left:5%;
+}
+
+
+/***
+============================================
+
+FOOTER CSS
+
+============================================
+***/
+
+footer{
+	color: white;
+	position: absolute;
+	width:100vw;
+	height: auto;
+	text-align: center;
+	margin: 0;
+}
+#sites img{
+	width:12.5vw;
+	height:40vh;
+	object-fit: cover;
+}
+
+#contact_us {
+	position: relative;
+	font-family:Asap-Condensed;
+	height:48vh;
+	background-color:#2A5440;
+	border-top:2vh solid #3A7157;
+}
+
+#contact_us img {
+	width: 35px;
+	height:35px;
+	margin-right:8px;
+}
+
+#contact_us div {
+	position: absolute;
+	height:30vh;
+	margin-top:10vh;
+	margin-bottom:10vh;
+	width: 50vw;
+}
+
+#contact_us_left {
+	left:0;
+	text-align:right;
+	border-right:4px solid white;
+}
+
+#contact_us_left p{
+	height:100%;
+	padding-top:0;
+	width:47vw;
+	margin-top: 0;
+}
+
+#contact_us_right {
+	right:0;
+	text-align: left;
+}
+
+#contact_us_right p{
+	position: absolute;
+	right:0;
+	padding-top: 8px;
+	width:47vw;
+	margin-top: 0;
+}
+
+#copyright {
+	height:10vh;
+	background-color:#3A7157;
+	font-family: Amiko-Regular;
+}
+
+#copyright img {
+	width: 35px;
+	height:35px; 
+	vertical-align: middle;
+	margin-right:10px;
+}
+
+#copyright p {
+	margin:0;
+	padding:15px;
+}
+

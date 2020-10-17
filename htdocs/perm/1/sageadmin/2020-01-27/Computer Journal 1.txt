@@ -1,0 +1,12 @@
+.LOG
+11:10 AM 22/01/2020
+Right now, the internet provided by DOST is very slow. The average speed is 86 Kbps and it can hardly download pages quickly. 
+
+12:13 PM 22/01/2020
+Fixed bug where preparation failed. The problem was from the misspelled column name statusreport
+12:21 PM 22/01/2020
+Fixed wrong popup placement hhihi
+1:46 PM 22/01/2020
+Finished approvals.php
+8:03 AM 24/01/2020
+Time to test everything into account haha

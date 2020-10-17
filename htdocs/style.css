@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+body {font-family: 'Montserrat', sans-serif;}
+
+
+.navbar{
+	font-size:18px;
+	color:white;
+	margin-bottom: 30px;
+	
+}
+.jumbotron{
+	padding-top:10px;
+	padding-bottom: 5px;
+}
+.jumbotron h1{
+	font-size:30px;
+}
+[class*="col-"] {
+    padding: 1rem;
+}
+
+.search-txt {
+	border: none;
+	background: none;
+	outline: none;
+	float: left;
+	padding: 0;
+	color: white;
+	font-size: 16px;
+	line-height: 40px;
+	width:90%;
+}﻿
+
+
+
+
+/*
+	Modals
+*/
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg:hover {
+  opacity: 0.7;
+}
+
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 108;
+  padding: 10em;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: hidden;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.9);
+  /* Black w/ opacity */
+}
+
+.modal-content {
+  margin: auto;
+  display: block;
+  max-width: 500px;
+  max-height: 500px;
+
+}
+
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+.modal-content,
+#caption {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(0)
+  }
+  to {
+    transform: scale(1)
+  }
+}
+
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 700px) {
+  .modal-content {
+    width: 100%;
+  }
+}
+/*
+	Modals End
+*/
+
