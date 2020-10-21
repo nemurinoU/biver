@@ -169,7 +169,7 @@ nav
 }
 #body::before 
 {    
-	background-image: radial-gradient(ellipse,rgba(0, 0 ,0, 0.1),rgba(0, 0 ,0, .7)),linear-gradient(rgba(0,0,0,0.1) 30%,rgba(0, 0 ,0, 1) 85%,rgba(0, 0, 0, 1) 100%),url("../images/background/tarsier2.jpg");
+	background-image: radial-gradient(ellipse,rgba(0, 0 ,0, 0.1),rgba(0, 0 ,0, .7)),linear-gradient(rgba(0,0,0,0.1) 30%,rgba(0, 0 ,0, 1) 85%,rgba(0, 0, 0, 1) 100%),url("../img/background/tarsier2.jpg");
     content: "";
 	background-size: cover;
 	background-position: center center;
@@ -243,8 +243,8 @@ input:focus
 iframe
 {
 	margin-top:25px;
-	width:40vw;
-	height:44vh;
+	width:35em;
+	height:18em;
 	min-width:500px;
 	min-height:300px;
 	border:6px solid rgba(61, 60, 58, .55);
@@ -303,11 +303,12 @@ BODY CSS
 /*-----*/
 #div3_1s
 {
-	margin-top:20px;
+	margin-top:5vh;
 }
 #div3_1s img
 {
-	height:17vh;
+	height: 5em;
+    width: 5em;
 	vertical-align: middle;
 }
 #div3_1s div
@@ -323,6 +324,7 @@ BODY CSS
 {
 	font-family: Asap-Condensed;
 	font-size:25px;
+    margin-top: 2.5em;
 }
 #div3_1s #author
 {
@@ -334,7 +336,7 @@ BODY CSS
 #div3_1 h3
 {
 	font-size: 15px;
-	margin-top:22px;
+	margin-top:5em;
 	width:76px;
 	font-family: Inter-Regular;
 	padding-bottom:5px;
@@ -358,7 +360,7 @@ BODY CSS
 	border-radius:10px 10px 0 0;
 	min-height:25vh;
 	width:100%;
-	background-image: url("../images/articles/a.jpg");
+	background-image: url("../img/articles/a.jpg");
 	background-size: 100%;	
 	padding-top:-25px;
 	margin-bottom:25px;
@@ -405,14 +407,14 @@ BODY CSS
 #spanel1_img
 {
 	height:25vh;
-	background-image: url("../images/articles/b.jpg");
+	background-image: url("../img/articles/b.jpg");
 	background-size: 100%;
 	border-bottom:7px solid #5BEBA6;
 }
 #spanel2_img
 {
 	height:25vh;
-	background-image: url("../images/articles/c.jpg");
+	background-image: url("../img/articles/c.jpg");
 	background-size: 100%;
 	border-bottom:7px solid #5BEBA6;
 }
