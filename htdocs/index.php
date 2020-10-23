@@ -1,35 +1,18 @@
+
 <!DOCTYPE html>
 <html>
 	<head>
 		<title>BiVER</title>
 		
 		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable = yes">
 		<link rel="icon" href="favicon.ico" type="image/x-icon">
 			
 		<link rel="stylesheet" href="static/css/homepage.css?ver=<?php echo rand(111,999)?>">
 	</head>
 	<body>
-		<div id="nav">
-			<nav>
-				<div id="div1_1">
-					<img src="static/img/logos/biverlogo.png">
-					<div id="div1_1s">
-						<h1>BIVER</h1>
-					</div>
-				</div>
-				<div id="div1_2">
-					<a id="left">News</a>
-					<a>Activities</a>
-					<a>Researches</a>
-					<a id="right">About</a>
-				</div>
-				<div id="div1_3">
-					<img src="static/img/icons/search1.png">
-					<img src="static/img/icons/person11.png">
-				</div>
-			</nav>
-		</div>
+        <?php include('navbar.php'); ?>
+        
 		<div id="body">
 			<div id="div2">
 				<div id="div2_1">
@@ -53,6 +36,7 @@
 		<div id="body2">
 			<div id="div3_1">
 				<div id="news">NEWS</div>
+                <a href="#">
 				<div id="div3_1s">
 					<img src="static/img/misc/placeholder.png">
 					<div>
@@ -60,6 +44,8 @@
 						<p id="author">by Author</p>
 					</div>
 				</div>
+                </a>
+                <a href="#">
 				<div id="div3_1s">
 					<img src="static/img/misc/placeholder.png">
 					<div>
@@ -67,6 +53,8 @@
 						<p id="author">by Author</p>
 					</div>
 				</div>
+                </a>
+                <a href="#">
 				<div id="div3_1s">
 					<img src="static/img/misc/placeholder.png">
 					<div>
@@ -74,13 +62,19 @@
 						<p id="author">by Author</p>
 					</div>
 				</div>
+                </a>
+                <a href="#">
 				<h3>SEE MORE</h3>
+                </a>
 			</div>
 			<div id="div3_2">
+                <a href="#">
 				<div id="bpanel">
 					<div>RESEARCH</div>
 					<h1>Evaluation of Microplastics in West Philippines Sea</h1>
 				</div>
+                </a>
+                <a href="#">
 				<div id="spanel1">
 					<div id="spanel1_img">
 						<div>RESEARCH</div>
@@ -88,6 +82,8 @@
 					<h3>Pesticidal effects on Comperiella sp.</h3>
 					<p>by Gomez, A, et. al.</p>
 				</div>
+                </a>
+                <a href="#">
 				<div id="spanel2">
 					<div id="spanel2_img">
 						<div>RESEARCH</div>
@@ -95,6 +91,7 @@
 					<h3>Density clustering of Tilapia in Bilog Island</h3>
 					<p>by De la Cruz, K, et. al.</p>
 				</div>
+                </a>
 			</div>			
 		</div>
 

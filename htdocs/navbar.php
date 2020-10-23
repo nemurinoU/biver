@@ -49,7 +49,7 @@
 					}
 				?>
 			}
-			.something{
+			.available{
 				<?php 
 					if(isset($_SESSION['active'])){
 						echo "display: block;";
@@ -136,96 +136,119 @@
 			.back:hover{
 				cursor: pointer !important;
 			}
-	
+            /* This is where our CSS starts */
+            nav{
+                height: 8vh;
+                text-align: center;
+                left:1%;
+                top:10%;
+                position: relative;
+                background: white;
+            }
+            a{
+                text-decoration: none;
+            }
+            /*-----*/
+            #div1_1{
+                overflow: hidden;
+                min-width:16vw;
+                float: left;
+                height:100%;
+            }
+            #div1_1 img{
+                height:100%;
+                vertical-align: middle;
+            }
+            /*-----*/
+            #div1_1s{
+                display:inline-block;
+                height:100%;
+                vertical-align: middle;
+                padding-right:25%;
+                margin-left:7%;
+            }
+            #div1_1s h1{
+                font-size:4.5vh;
+                color:#2A5440;
+                font-family: Lovelo;
+                width:100%;
+                border-top:.6vh solid #2A5440;
+                border-bottom:.6vh solid #2A5440;
+                margin-top:5%;
+            }
+            /*-----*/
+            #div1_2{
+                display:inline-block;
+                padding-top:2vh;
+                padding-bottom:1vh;
+                font-size: 3vh;
+                border-bottom: .5vh solid #3B7257;
+            }
+            #div1_2 a:not(#left){
+                padding-left:2vw;
+            }
+            #div1_2 a:not(#right){
+                padding-right:2vw;
+            }
+            #div1_2 a{
+                color:#3B7257;
+                font-family: Asap-Condensed
+            }
+            /*-----*/
+            #div1_3{
+                overflow: hidden;
+                min-width:13vw;
+                float: right;
+                height:100%;
+            }
+            #div1_3 img{
+                padding-top:2.15vh;
+                display:inline-block;
+                height:50%;
+                margin-left:20%;
+            }
+/*------------------------------------------------------*/
 			/*-----------------------------------------<navbar/>----------------------------------------------*/
 	
 </style>
 </head>
-	<!--  
 
-		<div class="jumbotron text-center mb-0 mt-2 p-0" id="header">	
+		<!---<a class="navbar-brand text-light mx-1" data-toggle="tooltip" data-placement="bottom" title="homepage" style="position:fixed;z-index: 105" href="./"><img src="logoTemp.png" class="logo"><span id="brandTitle"> BiVER</span></a> #can be used for later--->
 
-		<div class="d-flex justify-content-center">	
-			
-			<img class="d-none d-sm-block imgh my-2 mx-0" src="pcaarrdPIC.jpg"/>
-			    	
-			<h1 class="ml-4 mr-3" style="display: inline-block" id="websiteTitle">Biodiversity & Vulnerable <br> Ecosystems Research</h1>		     
-			    	
-			<img class="d-none d-sm-block imgh my-2 mx-0" src="pshss.jpg"/>
-
-		</div>
-	-->	
-		
-		<a class="navbar-brand text-light mx-1" data-toggle="tooltip" data-placement="bottom" title="homepage" style="position:fixed;z-index: 105" href="./"><img src="logoTemp.png" class="logo"><span id="brandTitle"> BiVER</span></a>
-
-
-
-		<nav class="navbar navbar-expand-md navbar-dark mb-0 sticky-top navBar1 py-2 shadow-lg text-light" style="z-index: 100">
-
-			
-
-		<!--	<a class="navbar-brand py-1 ml-2" href="./"><img src="logoTemp.png" class="logo"><span id="brandTitle">BiVER</span></a> -->
-
-			
-
-			<button class="navbar-toggler ml-auto" data-toggle="collapse" data-target="#collapse_target">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-		
+			<div id="nav">
+            <nav>
 				
 			<?php 
-				$query = mysqli_query($con, "SELECT COUNT(statusreport) FROM filelist WHERE statusreport='pending'");
-				$result = mysqli_fetch_array($query, MYSQLI_NUM);
-				$new_submits = $result[0];
+				#$query = mysqli_query($con, "SELECT COUNT(statusreport) FROM filelist WHERE statusreport='pending'");
+				#$result = mysqli_fetch_array($query, MYSQLI_NUM);
+				#$new_submits = $result[0];
+                #commented because sql variables arent declared
 			?>
-			<div class="collapse navbar-collapse" id="collapse_target">
-				
-				<ul class="navbar-nav mx-auto">
-					<!--
-					<li class="nav-item ml-5">
-						<a class="nav-link" href="admin_view_accounts.php" id="members">Members</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="submissions.php" id="submissions">Submissions
-						<?php if($new_submits > 0 && ($_SESSION['access']=="Admin" || $_SESSION['access']=="Project Head")){
-							echo "<span class='badge badge-success'> $new_submits </span>";
-						}
-						?>
-						</a>
-		-->
-					</li>					
-					<li class="nav-item">
-						<a class="nav-link" href="activities.php" id="activities"><!--<i class="fas fa-running"></i>-->Activities </a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="announcements.php"><!--<i class="fas fa-book"></i> -->Announcements</a>
-					</li>
-					<li class="nav-item something">
-						<a class="nav-link"  href="settings.php"><!--<i class="fas fa-sign-out-alt">--></i> Settings </a>
-					</li>
-					<li class="nav-item something">
-						<a class="nav-link"  href="logout.php"><!--<i class="fas fa-sign-out-alt">--></i> Logout </a>
-					</li>
-					<li class="nav-item" id= "login">
-						<a class="nav-link"  href="login.php" ><!--<i class="fas fa-th-list"></i> -->Login </a>
-					</li>
-				</ul>
-			</div>
-
-			<!--
 			
-			<div class="d-none d-md-block" style="width:170px">
-				<ul class="navbar-nav ml-auto profile">
-				    <li class="nav-item profile" >
-						<a class="nav-link profile" href="settings.php">
-						<img src="profilePic.png" class="dp">&nbsp;&nbsp; <?php echo $_SESSION['active']; ?></a>
-					</li>
-			</ul>
-			</div>
-
-			-->
-
-		</nav>
+            
+				<div id="div1_1">
+                    <a href="\biverroot/htdocs">
+					<img src="static/img/logos/biverlogo.png">
+					<div id="div1_1s">
+						<h1>BIVER</h1>
+					</div>
+                    </a>
+				</div>
+				<div id="div1_2">
+					<a id="left" href="announcements.php">News</a>
+					<a href="activities.php">Activities</a> 
+					<a>Researches</a>
+					<a id="right" href="aboutus.php">About</a>
+				</div>
+				<div id="div1_3">
+                    <a class="available"  href="settings.php"></i> Settings </a>
+                    <a class="available"  href="logout.php"></i> Logout </a>
+					<a href="#"><img src="static/img/icons/search1.png"> </a>
+					<a href="login.php"><img src="static/img/icons/login.png"></a>
+				</div>
+			</nav>
+        </div>
+    
 
 
 

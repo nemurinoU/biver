@@ -283,13 +283,17 @@ BODY CSS
 	opacity: .9;
 }
 /*------------------------------------------------------*/
+a, a:visited{
+    text-decoration: none;
+    color: white;
+}
 #div3_1
 {
 	text-align:left;
 	display: inline-block;
 	position:relative;
 	color:white;
-	margin-right:-5vw;
+	margin-right:-10vw;
 	margin-bottom:15vh;
 }
 /*-----*/
@@ -357,14 +361,22 @@ BODY CSS
 /*-----*/
 #bpanel
 {
-	border-radius:10px 10px 0 0;
+	/*border-radius:10px 10px 0 0;*/
 	min-height:25vh;
 	width:100%;
-	background-image: url("../img/articles/a.jpg");
 	background-size: 100%;	
 	padding-top:-25px;
 	margin-bottom:25px;
 	border-bottom:7px solid #5BEBA6;
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.3), 
+      rgba(0, 0, 0, 0.3)
+    ), url(../img/articles/a.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    
 }
 #bpanel div
 {
@@ -389,7 +401,7 @@ BODY CSS
 /*-----*/
 #spanel1, #spanel2
 {
-	border-radius:0 0 10px 10px;
+	/*border-radius:0 0 10px 10px;*/
 	display: inline-block;
 	min-width:261px;
 	width:20vw;
@@ -407,15 +419,25 @@ BODY CSS
 #spanel1_img
 {
 	height:25vh;
-	background-image: url("../img/articles/b.jpg");
-	background-size: 100%;
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.3), 
+      rgba(0, 0, 0, 0.3)
+    ), url(../img/articles/b.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 	border-bottom:7px solid #5BEBA6;
 }
 #spanel2_img
 {
 	height:25vh;
-	background-image: url("../img/articles/c.jpg");
-	background-size: 100%;
+	background: linear-gradient(
+      rgba(0, 0, 0, 0.3), 
+      rgba(0, 0, 0, 0.3)
+    ), url(../img/articles/c.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 	border-bottom:7px solid #5BEBA6;
 }
 #spanel1_img div, #spanel2_img div
@@ -423,7 +445,7 @@ BODY CSS
 	font-family: Asap-Condensed;
 	width:53px;
 	margin-left:15px;
-	padding-top:145px;
+	padding-top: 12.5em;
 	padding-bottom:5px;
 	font-size:11px;
 	border-bottom:2px solid white;
