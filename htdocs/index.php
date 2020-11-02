@@ -1,4 +1,6 @@
 <?php
+	/***
+	#Connects to database and starts a session
 	$con=mysqli_connect("210.213.193.68", "root", "BIVERproject18");
 	if (mysqli_connect_errno()){
 		echo "Failed to connect to MySQL: " . mysqli_connect_error();
@@ -6,22 +8,44 @@
 	else{
 		mysqli_select_db($con, 'str_database');
 		session_start();
-	}
+	}***/
 ?>
+
 <!DOCTYPE html>
 <html>
 	<head>
 		<title>BiVER</title>
 		
+		<!---Character set, adjust to viewing device--->
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable = yes">
-		<link rel="icon" href="favicon.ico" type="image/x-icon">
-			
+		
+		<!---Website Icon and External Stylesheet--->
+		<link rel="icon" href="favicon.ico" type="image/x-icon">	
 		<link rel="stylesheet" href="static/css/homepage.css?ver=<?php echo rand(111,999)?>">
+
+		<style>
+			/*A quick CSS reset*/
+			* {
+		        margin: 0;
+		        padding: 0;
+		        border: 0;
+		        outline: 0;
+		        font-size: 100%;
+		        vertical-align: baseline;
+		        background: transparent;
+    		}
+		</style>
+
 	</head>
+
 	<body>
-        <?php include('navbar.php'); ?>
+        <?php
+        	#Calls the navigation bar, used in multiple pages
+        	include('navbar.php'); 
+       	?>
         
+        <!---Main Image Menu w/ Search Bar Section--->
 		<div id="body">
 			<div id="div2">
 				<div id="div2_1">
@@ -40,8 +64,7 @@
 			</div>
 		</div>
 
-
-
+		<!---Home Page News and Announcements Section--->
 		<div id="body2">
 			<div id="div3_1">
 				<div id="news">NEWS</div>
@@ -79,14 +102,14 @@
 			<div id="div3_2">
                 <a href="#">
 				<div id="bpanel">
-					<div>RESEARCH</div>
+					<div class="category">RESEARCH</div>
 					<h1>Evaluation of Microplastics in West Philippines Sea</h1>
 				</div>
                 </a>
                 <a href="#">
 				<div id="spanel1">
 					<div id="spanel1_img">
-						<div>RESEARCH</div>
+						<div class="category">RESEARCH</div>
 					</div>
 					<h3>Pesticidal effects on Comperiella sp.</h3>
 					<p>by Gomez, A, et. al.</p>
@@ -105,9 +128,9 @@
 		</div>
 
 
-
+		<!---Will move this to all_scripts_bottom.php soon (BEN)--->
 		<footer>
-			<!---	
+			<!--- DISCONTINUED DUE TO SLOW LOADING, WILL RETURN ONCE LAZY LOADING IMPLEMENTED
 			<div id="sites">
 				<img src="static/img/sites/working.jpg">
 				<img src="static/img/sites/tempworking.jpg">
@@ -148,6 +171,7 @@
 				</p>
 			</div>
 		</footer>
+
         <!-- --------------------------------------------------------------<Javascript>--------------------------------------------------------- -->
 		<!-- --------------------------------------------------------------<Javascript/>-------------------------------------------------------- -->
 	</body>
