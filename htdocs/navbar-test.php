@@ -316,11 +316,11 @@
 
 		<div class="d-flex justify-content-center">	
 			
-			<img class="d-none d-sm-block imgh my-2 mx-0" src="pcaarrdPIC.jpg"/>
+			<img class="d-none d-sm-block imgh my-2 mx-0" src="static/img/pcaarrdPIC.jpg"/>
 			    	
 			<h1 class="ml-4 mr-3" style="display: inline-block" id="websiteTitle">Biodiversity & Vulnerable <br> Ecosystems Research</h1>		     
 			    	
-			<img class="d-none d-sm-block imgh my-2 mx-0" src="pshss.jpg"/>
+			<img class="d-none d-sm-block imgh my-2 mx-0" src="static/img/pshss.jpg"/>
 
 		</div>
 	-->	
@@ -331,7 +331,7 @@
 
 			
 
-		<!--	<a class="navbar-brand py-1 ml-2" href="./"><img src="logoTemp.png" class="logo"><span id="brandTitle">BiVER</span></a> -->
+		<!--	<a class="navbar-brand py-1 ml-2" href="./"><img src="static/img/logoTemp.png" class="logo"><span id="brandTitle">BiVER</span></a> -->
 
 			
 					
@@ -378,7 +378,7 @@
 				<ul class="navbar-nav ml-auto profile">
 				    <li class="nav-item profile" >
 						<a class="nav-link profile" href="settings.php">
-						<img src="profilePic.png" class="dp">&nbsp;&nbsp; <?php echo $_SESSION['active']; ?></a>
+						<img src="static/img/profilePic.png" class="dp">&nbsp;&nbsp; <?php echo $_SESSION['active']; ?></a>
 					</li>
 			</ul>
 			</div>

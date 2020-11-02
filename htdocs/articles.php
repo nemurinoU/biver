@@ -286,10 +286,10 @@ $con=mysqli_connect("localhost", "root", "biver2018");
 
 				}
 				.section2{
-					background-image: url("working.jpg");
+					background-image: url("static/img/working.jpg");
 				}
 				.section3{
-					background-image: url("tempworking.jpg")
+					background-image: url("static/img/tempworking.jpg")
 				}
 				.section{
 					 /* Set a specific height */
@@ -360,7 +360,7 @@ $con=mysqli_connect("localhost", "root", "biver2018");
 			    while($row = mysqli_fetch_array($result)){
 			    	if($row['article_status'] == "Active"){
 			    		echo "<div class='card mb-3'>";
-			    		echo "<img class='card-img-top' data-src='placeholder.png' alt='Card image cap'>";
+			    		echo "<img class='card-img-top' data-src='static/img/placeholder.png' alt='Card image cap'>";
 			    		echo "<div class='card-body'>";
 			    			echo "<h4 class='card-title'> <a href='article.php?id=" . $row['article_id'] . "'>" . $row['article_title'] . "</a><small> by " . $row['article_contributor'] . "</small></h4>";
 			    			echo "<h5 class='card-title'>" . $row['article_tagline'] . "</h5>";

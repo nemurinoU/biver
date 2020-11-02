@@ -302,7 +302,7 @@
 			}
 			@media (min-width:1200px) { 
 				.section0{
-			    background-image: url("background_1.png")			    
+			    background-image: url("static/img/background_1.png")			    
 				}
 				.paragraph1{
 					position:relative;
@@ -318,13 +318,13 @@
 			
 
 			.section1{
-				background-image: url("background_2.jpg");
+				background-image: url("static/img/background_2.jpg");
 			}
 			.section2{
-				background-image: url("working.jpg");
+				background-image: url("static/img/working.jpg");
 			}
 			.section3{
-				background-image: url("tempworking.jpg")
+				background-image: url("static/img/tempworking.jpg")
 			}
 			.section{
 				 /* Set a specific height */

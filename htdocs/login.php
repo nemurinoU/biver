@@ -102,7 +102,7 @@
 		<!-- ---------------------------------------------------------<Icon Header & Styling/>-------------------------------------------------- -->
 	
 </head>
-<body style="background-image: url('loginBackground.jpg');">
+<body style="background-image: url('static/img/loginBackground.jpg');">
 		<?php include('navbar.php'); ?>
 		<!-- ----------------------------------------------------------<LOWER NAVBAR/>--------------------------------------------------- -->
 

@@ -296,10 +296,10 @@
 
 				}
 				.section2{
-					background-image: url("working.jpg");
+					background-image: url("static/img/working.jpg");
 				}
 				.section3{
-					background-image: url("tempworking.jpg")
+					background-image: url("static/img/tempworking.jpg")
 				}
 				.section{
 					 /* Set a specific height */

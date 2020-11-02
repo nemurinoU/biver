@@ -239,11 +239,11 @@
 
 		<div class="d-flex justify-content-center">	
 			
-			<img class="d-none d-sm-block imgh my-2 mx-0" src="pcaarrdPIC.jpg"/>
+			<img class="d-none d-sm-block imgh my-2 mx-0" src="static/img/pcaarrdPIC.jpg"/>
 			    	
 			<h1 class="ml-4 mr-3" style="display: inline-block" id="websiteTitle">Biodiversity & Vulnerable <br> Ecosystems Research</h1>		     
 			    	
-			<img class="d-none d-sm-block imgh my-2 mx-0" src="pshss.jpg"/>
+			<img class="d-none d-sm-block imgh my-2 mx-0" src="static/img/pshss.jpg"/>
 
 		</div>
 	-->	
@@ -254,7 +254,7 @@
 
 			
 
-		<!--	<a class="navbar-brand py-1 ml-2" href="./"><img src="logoTemp.png" class="logo"><span id="brandTitle">BiVER</span></a> -->
+		<!--	<a class="navbar-brand py-1 ml-2" href="./"><img src="static/img/logoTemp.png" class="logo"><span id="brandTitle">BiVER</span></a> -->
 
 			
 					
@@ -301,7 +301,7 @@
 				<ul class="navbar-nav ml-auto profile">
 				    <li class="nav-item profile" >
 						<a class="nav-link profile" href="settings.php">
-						<img src="profilePic.png" class="dp">&nbsp;&nbsp; <br />
+						<img src="static/img/profilePic.png" class="dp">&nbsp;&nbsp; <br />
 <b>Notice</b>:  Undefined index: active in <b>C:\Users\Michael Omisol\Dropbox\STR\navbar-test.php</b> on line <b>381</b><br />
 </a>
 					</li>
@@ -553,11 +553,11 @@
 
 		<div class="d-flex justify-content-center">	
 			
-			<img class="d-none d-sm-block imgh my-2 mx-0" src="pcaarrdPIC.jpg"/>
+			<img class="d-none d-sm-block imgh my-2 mx-0" src="static/img/pcaarrdPIC.jpg"/>
 			    	
 			<h1 class="ml-4 mr-3" style="display: inline-block" id="websiteTitle">Biodiversity & Vulnerable <br> Ecosystems Research</h1>		     
 			    	
-			<img class="d-none d-sm-block imgh my-2 mx-0" src="pshss.jpg"/>
+			<img class="d-none d-sm-block imgh my-2 mx-0" src="static/img/pshss.jpg"/>
 
 		</div>
 	-->	
@@ -568,7 +568,7 @@
 
 			
 
-		<!--	<a class="navbar-brand py-1 ml-2" href="./"><img src="logoTemp.png" class="logo"><span id="brandTitle">BiVER</span></a> -->
+		<!--	<a class="navbar-brand py-1 ml-2" href="./"><img src="static/img/logoTemp.png" class="logo"><span id="brandTitle">BiVER</span></a> -->
 
 			
 					
@@ -615,7 +615,7 @@
 				<ul class="navbar-nav ml-auto profile">
 				    <li class="nav-item profile" >
 						<a class="nav-link profile" href="settings.php">
-						<img src="profilePic.png" class="dp">&nbsp;&nbsp; <br />
+						<img src="static/img/profilePic.png" class="dp">&nbsp;&nbsp; <br />
 <b>Notice</b>:  Undefined index: active in <b>C:\Users\Michael Omisol\Dropbox\STR\navbar-test.php</b> on line <b>381</b><br />
 </a>
 					</li>
@@ -667,7 +667,7 @@
 				<div class="row padding text-justify imgholder">
 					<div class="col-xs-12 col-sm-6 col-md-6 p-3 row-eq-height">
 						<div class="jumbotron text-center pb-2 mx-auto">
-							<img class="lazy img img-responsive" data-src="working.jpg" alt="working"><br>
+							<img class="lazy img img-responsive" data-src="static/img/working.jpg" alt="working"><br>
 							<em> Photo taken by Noblejas.</em>
 						</div>
 					</div>
@@ -687,7 +687,7 @@
 			<!-- -----------------------------------------------------------<ROW 4>------------------------------------------------------- -->	
 				<div class="row padding text-justify row4">
 					<div class="col-xs-12 col-sm-6 col-md-6 text-center">
-								<img class="lazy img img-responsive p-3 mx-auto" src="tempworking.jpg" alt="working"><br>
+								<img class="lazy img img-responsive p-3 mx-auto" src="static/img/tempworking.jpg" alt="working"><br>
 							<em> Photo taken by Noblejas.</em>
 						<p id="5" class="p-3 text-justify">
 								Project sites are chosen for their vulnerability to climate change and to increasing anthropogenic activities.  These are marine protected areas which are fast emerging as ecotourism sites (i.e., Cuatro Islas in Inopacan-Hindang, Leyte, Kalanggaman Island in Palompon, Leyte, San Pedro Bay/Cancabato Bay, Tacloban City); a mangrove forest that has been turned into a tourist site in Hilongos, Leyte; and Lake Danao (Ormoc City) and Lake Bito (McArthur, Leyte), both near the Binahaan River System which is used to extract the drinking water provided to Tacloban City and many municipalities in Leyte.  
@@ -734,49 +734,49 @@
 						<div class="col-xs-6 col-sm-6 col-md-4 lg-2">
 <br>
 							<div class="boxS">
-							<img data-src="danao.jpg" class="img-m img-responsive"><br><br>
+							<img data-src="static/img/danao.jpg" class="img-m img-responsive"><br><br>
 							<h6>Lake Danao</h6>
 							</div>
 						</div>
 						<div class="col-xs-6 col-sm-6 col-md-4 lg-2">
 <br>
 							<div class="boxS">
-							<img data-src="bito.jpg" alt="Imageholder.png" class="img-m img-responsive"><br><br>
+							<img data-src="static/img/bito.jpg" alt="Imageholder.png" class="img-m img-responsive"><br><br>
 							<h6>Lake Bito</h6>
 							</div>
 						</div>
 						<div class="col-xs-6 col-sm-6 col-md-4 lg-2">
 <br>
 							<div class="boxS">
-							<img data-src="cuatroislas.jpg" alt="Imageholder.png" class="img-m img-responsive"><br><br>
+							<img data-src="static/img/cuatroislas.jpg" alt="Imageholder.png" class="img-m img-responsive"><br><br>
 							<h6>Cuatro Islas</h6>
 							</div>
 						</div>
 						<div class="col-xs-6 col-sm-6 col-md-4 lg-2">
 <br>
 							<div class="boxS">
-							<img data-src="kalanggaman.jpg" alt="Imageholder.jpg" class="img-m img-responsive"><br><br>
+							<img data-src="static/img/kalanggaman.jpg" alt="Imageholder.jpg" class="img-m img-responsive"><br><br>
 							<h6>Kalanggaman Island</h6>
 							</div>
 						</div>
 						<div class="col-xs-6 col-sm-6 col-md-4 lg-2">
 <br>
 							<div class="boxS">
-							<img data-src="sanpedro.jpg" alt="Imageholder.png" class="img-m img-responsive"><br><br>
+							<img data-src="static/img/sanpedro.jpg" alt="Imageholder.png" class="img-m img-responsive"><br><br>
 							<h6>San Pedro Bay</h6>
 							</div>
 						</div>
 						<div class="col-xs-6 col-sm-6 col-md-4 lg-2">
 <br>
 							<div class="boxS">
-							<img data-src="cancabato.jpg" alt="cancabato_pic" class="img-m img-responsive"><br><br>
+							<img data-src="static/img/cancabato.jpg" alt="cancabato_pic" class="img-m img-responsive"><br><br>
 							<h6>Cancabato Bay</h6>
 							</div>
 						</div>
 						<div class="col-xs-6 col-sm-6 col-md-4 lg-2">
 <br>
 							<div class="boxS">
-							<img data-src="binahaan.jpg" alt="Imageholder.png" class="img-m img-responsive"><br><br>
+							<img data-src="static/img/binahaan.jpg" alt="Imageholder.png" class="img-m img-responsive"><br><br>
 							<h6>Binahaan River</h6>
 							</div>
 						</div>
@@ -793,40 +793,40 @@
 		<div class="jumbotron" id="partner">
 			<h2 class="text-center padding">Funding Agency</h2>
 			<br>
-			<img data-src="pcaarrd.jpg" alt="pcaarrd" id="fundingimage" class="mb-3">
+			<img data-src="static/img/pcaarrd.jpg" alt="pcaarrd" id="fundingimage" class="mb-3">
 			<h4> DOST - PCAARRD </h4>
 			<br><br>
 			<h2 class="text-center padding">Partner Agencies</h2>
 			<div class="row text-center padding">
 				<div class="col-xs-12 col-sm-6 col-lg-4">
-					<img data-src="cenro.png" class="agency mb-2">
+					<img data-src="static/img/cenro.png" class="agency mb-2">
 					<h5> CENRO-BAYBAY </h5>
 				</div>
 				<div class="col-xs-12 col-sm-6 col-lg-4">
-					<img data-src="cenro.png" class="agency mb-2">
+					<img data-src="static/img/cenro.png" class="agency mb-2">
 					<h5> CENRO-ORMOC </h5>
 				</div>
 				<div class="col-xs-12 col-sm-6 col-lg-4">
-					<img data-src="pshsevc.png" class="agency">
+					<img data-src="static/img/pshsevc.png" class="agency">
 					<h5> PSHS-EVC </h5>
 				</div>
 				<div class="col-xs-12 col-sm-6 col-lg-4">
-					<img data-src="tacloban.jpg" class="agency">
+					<img data-src="static/img/tacloban.jpg" class="agency">
 				</div>
 				<div class="col-xs-12 col-sm-6 col-lg-4">
-					<img data-src="dagami.jpg" class="agency">
+					<img data-src="static/img/dagami.jpg" class="agency">
 				</div>
 				<div class="col-xs-12 col-sm-6 col-lg-4">
-					<img data-src="pastrana.jpg" class="agency">
+					<img data-src="static/img/pastrana.jpg" class="agency">
 				</div>
 				<div class="col-xs-12 col-sm-6 col-lg-4">
-					<img data-src="palompon.png" class="agency">
+					<img data-src="static/img/palompon.png" class="agency">
 				</div>
 				<div class="col-xs-12 col-sm-6 col-lg-4">
-					<img data-src="hilongos.jpg" class="agency">
+					<img data-src="static/img/hilongos.jpg" class="agency">
 				</div>
 				<div class="col-xs-12 col-sm-6 col-lg-4">
-					<img data-src="inopacan.png" class="agency">
+					<img data-src="static/img/inopacan.png" class="agency">
 				</div>
 			</div>
 		</div>

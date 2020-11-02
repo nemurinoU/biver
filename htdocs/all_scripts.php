@@ -220,7 +220,7 @@
 					margin-left:3vw;
 				}
 				.section0{
-			    background-image: url("backgroundMainC.png")			    
+			    background-image: url("static/img/backgroundMainC.png")			    
 				}
 
 			}
@@ -239,7 +239,7 @@
 					left: 10%;
 				}
 				.section0{
-			    background-image: url("backgroundMain2.png")			    
+			    background-image: url("static/img/backgroundMain2.png")			    
 				}
 				.section{
 					min-height: auto; 
@@ -253,7 +253,7 @@
 			}
 			@media (min-width:1200px) { 
 				.section0{
-			    background-image: url("backgroundMain.png")			    
+			    background-image: url("static/img/backgroundMain.png")			    
 				}
 				
 				.list{
@@ -270,14 +270,14 @@
 				  background-size: cover;
 				}
 				.section1{
-					background-image: url("background_2.jpg");
+					background-image: url("static/img/background_2.jpg");
 				}
 
 			}
 
 
 			.sectionB1{
-				background-image: url("background3.jpg")
+				background-image: url("static/img/background3.jpg")
 			}
 			.section2{
 				

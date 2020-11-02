@@ -280,13 +280,13 @@
 <body>
 
 	<div class="jumbotron text-center" style="margin-bottom: 0px" id="header">		
-			<img style="display: inline-block" class="img-h" src="pcaarrd.jpg"/><h2 style="display: inline-block" class="mx-2">Biodiversity and Vulnerable Ecosystems Research</h2><img style="display: inline-block" class="img-h" src="crestLogo.png"/><img style="display: inline-block" class="img-h ml-2" src="pshsevc.png"/>
+			<img style="display: inline-block" class="img-h" src="pcaarrd.jpg"/><h2 style="display: inline-block" class="mx-2">Biodiversity and Vulnerable Ecosystems Research</h2><img style="display: inline-block" class="img-h" src="static/img/crestLogo.png"/><img style="display: inline-block" class="img-h ml-2" src="pshsevc.png"/>
 		</div>
 		<!-- ------------------------------------------------------------<NAVBAR>------------------------------------------------------- -->
 
 		<!-- ----------------------------------------------------------<UPPER NAVBAR>---------------------------------------------------- -->
 		<nav class="navbar navbar-expand-md navbar-dark mb-0 sticky-top navBar1 py-0">
-			<a class="navbar-brand" href="index.php"><img src="logoTemp.png" class="logo"><span id="brandTitle">BiVER</span></a>
+			<a class="navbar-brand" href="index.php"><img src="static/img/logoTemp.png" class="logo"><span id="brandTitle">BiVER</span></a>
 					
 			<button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
 				<span class="navbar-toggler-icon"></span>
@@ -298,7 +298,7 @@
 				<ul class="navbar-nav mr-auto">
 				    <li class="nav-item">
 						<a class="nav-link" href="#" id="profile">
-						<img src="profilePic.png" class="dp">&nbsp;&nbsp; Username</a>
+						<img src="static/img/profilePic.png" class="dp">&nbsp;&nbsp; Username</a>
 					</li>
 				</ul>
 		<!-- ------------------------------------------------------------<PROFILE/>------------------------------------------------------ -->

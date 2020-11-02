@@ -316,7 +316,7 @@
 					margin-left:3vw;
 				}
 				.section0{
-			    background-image: url("backgroundMainC.png")			    
+			    background-image: url("static/img/backgroundMainC.png")			    
 				}
 
 			}
@@ -335,7 +335,7 @@
 					left: 10%;
 				}
 				.section0{
-			    background-image: url("backgroundMain2.png")			    
+			    background-image: url("static/img/backgroundMain2.png")  
 				}
 				.section{
 					min-height: auto; 
@@ -349,7 +349,7 @@
 			}
 			@media (min-width:1200px) { 
 				.section0{
-			    background-image: url("backgroundMain.png")			    
+			    background-image: url("static/img/backgroundMain.png")			    
 				}
 				
 				.list{
@@ -366,25 +366,25 @@
 				  background-size: cover;
 				}
 				.section1{
-					background-image: url("background_2.jpg");
+					background-image: url("static/img/background_2.jpg");
 				}
 
 			}
 
 
 			.sectionB1{
-				background-image: url("background3.jpg")
+				background-image: url("static/img/background3.jpg")
 			}
 			.section2{
 				
 				width:100%;
 			}
 			.section3{
-				background-image: url("description1.jpg");	
+				background-image: url("static/img/description1.jpg");	
 				width:100%;
 			}
 			.section4{
-				background-image: url("description2.jpg");
+				background-image: url("static/img/description2.jpg");
 
 			}
 			
@@ -616,7 +616,7 @@
 
 					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 					
-						<img class="philippineMap mx-auto d-block" src="phillipineMap.png"  alt="...">
+						<img class="philippineMap mx-auto d-block" src="static/img/phillipineMap.png"  alt="...">
 									
 					</div>
 
@@ -633,7 +633,7 @@
 							
 				</div>
 				<div class="d-block d-md-none">
-					<img class="philippineMap mx-auto d-block" src="region8.png"  alt="...">
+					<img class="philippineMap mx-auto d-block" src="static/img/region8.png"  alt="...">
 				</div>
 				
 				<div class="row padding text-justify mt-0 align-items-center">
@@ -650,7 +650,7 @@
 
 					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 row-eq-height d-none d-md-block">
 					
-						<img class="philippineMap my-auto mx-auto d-block" src="region8.png"  alt="...">
+						<img class="philippineMap my-auto mx-auto d-block" src="static/img/region8.png"  alt="...">
 							
 						
 					</div>
@@ -719,7 +719,7 @@
 			<div class="container-fluid padding">
 				<div class="row padding text-justify justify-content-end p-0 description1">
 					<div class="col-xs-12 col-sm-4 col-md-4 col-lg-6 row-eq-height p-0">						
-						<div class="section lazy" data-bg="url(description2.jpg)">
+						<div class="section lazy" data-bg="url(static/img/description2.jpg)">
 						</div>
 					</div>
 					<div class="col-xs-12 col-sm-8 col-md-8 col-lg-6 p-0 row-eq-height " style="background-color:#192a56">					
@@ -792,7 +792,7 @@ Binahaan River System which is used to extract the drinking water provided to Ta
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img data-src="lakeDanoFinal.jpg" class="d-block projectSitesImage lazy" alt="...">
+        <img data-src="static/img/lakeDanoFinal.jpg" class="d-block projectSitesImage lazy" alt="...">
         <div class="carousel-caption d-md-block">
         	<div class="translucent p-2 rounded mb-2">
           		<p class="m-0">Lake Danao</p>
@@ -800,7 +800,7 @@ Binahaan River System which is used to extract the drinking water provided to Ta
         </div>
       </div>
       <div class="carousel-item">
-        <img data-src="bitoFinal.jpg" class="d-block projectSitesImage lazy" alt="...">
+        <img data-src="static/img/bitoFinal.jpg" class="d-block projectSitesImage lazy" alt="...">
         <div class="carousel-caption d-md-block">
           <div class="translucent p-2 rounded mb-2">
           		<p class="m-0">Lake Bito</p>
@@ -808,7 +808,7 @@ Binahaan River System which is used to extract the drinking water provided to Ta
         </div>
       </div>
       <div class="carousel-item">
-        <img data-src="cuatroIslasFinal.jpg" class="d-block projectSitesImage lazy" alt="...">
+        <img data-src="static/img/cuatroIslasFinal.jpg" class="d-block projectSitesImage lazy" alt="...">
         <div class="carousel-caption d-md-block">
           <div class="translucent p-2 rounded mb-2">
           		<p class="m-0">Cuatro Islas</p>
@@ -816,7 +816,7 @@ Binahaan River System which is used to extract the drinking water provided to Ta
         </div>
       </div>
       <div class="carousel-item">
-        <img data-src="kalanggamanFinal.jpg" class="d-block projectSitesImage lazy" alt="...">
+        <img data-src="static/img/kalanggamanFinal.jpg" class="d-block projectSitesImage lazy" alt="...">
         <div class="carousel-caption d-md-block">
           <div class="translucent p-2 rounded mb-2">
           		<p class="m-0">Kalanggaman Island</p>
@@ -824,7 +824,7 @@ Binahaan River System which is used to extract the drinking water provided to Ta
         </div>
       </div>
       <div class="carousel-item">
-        <img data-src="sanpedroFinal.jpg" class="d-block projectSitesImage lazy" alt="...">
+        <img data-src="static/img/sanpedroFinal.jpg" class="d-block projectSitesImage lazy" alt="...">
         <div class="carousel-caption d-md-block">
           <div class="translucent p-2 rounded mb-2">
           		<p class="m-0">San Pedro Bay</p>
@@ -832,7 +832,7 @@ Binahaan River System which is used to extract the drinking water provided to Ta
         </div>
       </div>
       <div class="carousel-item">
-        <img data-src="cancabatoFinal.jpg" class="d-block projectSitesImage lazy" alt="cancabato">
+        <img data-src="static/img/cancabatoFinal.jpg" class="d-block projectSitesImage lazy" alt="cancabato">
         <div class="carousel-caption d-md-block">
          <div class="translucent p-2 rounded mb-2">
           		<p class="m-0">Cancabato Bay</p>
@@ -840,7 +840,7 @@ Binahaan River System which is used to extract the drinking water provided to Ta
         </div>
       </div>
        <div class="carousel-item">
-   		<img class="lazy" data-src="binahaanFinal.jpg" alt="binahaanRiver">
+   		<img class="lazy" data-src="static/img/binahaanFinal.jpg" alt="binahaanRiver">
         <div class="carousel-caption d-md-block">
           <div class="translucent p-2 rounded mb-2">
           		<p class="m-0">Binahaan River</p>
@@ -866,45 +866,45 @@ Binahaan River System which is used to extract the drinking water provided to Ta
 		<div class="jumbotron" id="partner">
 			<h2 class="text-center padding">Funding Agency</h2>
 			<br>
-			<img data-src="pcaarrd.jpg" alt="pcaarrd" id="fundingimage" class="mb-3">
+			<img data-src="static/img/pcaarrd.jpg" alt="pcaarrd" id="fundingimage" class="mb-3">
 			<h4> DOST - PCAARRD </h4>
 			<br><br>
 			<h2 class="text-center padding">Partner Agencies</h2>
 			<div class="row text-center padding">
 				<div class="col-xs-12 col-sm-6 col-lg-4">
-					<img data-src="cenro.png" class="agency mb-2">
+					<img data-src="static/img/cenro.png" class="agency mb-2">
 					<h5> CENRO-BAYBAY </h5>
 				</div>
 				<div class="col-xs-12 col-sm-6 col-lg-4">
-					<img data-src="cenro.png" class="agency mb-2">
+					<img data-src="static/img/cenro.png" class="agency mb-2">
 					<h5> CENRO-ORMOC </h5>
 				</div>
 				<div class="col-xs-12 col-sm-6 col-lg-4">
-					<img data-src="pshss.png" class="agency mb-2">
+					<img data-src="static/img/pshss.png" class="agency mb-2">
 					<h5> PSHS-EVC </h5>
 				</div>
 				<div class="col-xs-12 col-sm-6 col-lg-4">
-					<img data-src="tacloban.jpg" class="agency mb-2">
+					<img data-src="static/img/tacloban.jpg" class="agency mb-2">
 					<h5> TACLOBAN CITY </h5>
 				</div>
 				<div class="col-xs-12 col-sm-6 col-lg-4">
-					<img data-src="dagami.jpg" class="agency mb-2">
+					<img data-src="static/img/dagami.jpg" class="agency mb-2">
 					<h5> MUNICIPALITY OF DAGAMI </h5>
 				</div>
 				<div class="col-xs-12 col-sm-6 col-lg-4">
-					<img data-src="pastrana.jpg" class="agency mb-2">
+					<img data-src="static/img/pastrana.jpg" class="agency mb-2">
 					<h5> MUNICIPALITY OF PASTRANA </h5>
 				</div>
 				<div class="col-xs-12 col-sm-6 col-lg-4">
-					<img data-src="palompon.png" class="agency mb-2">
+					<img data-src="static/img/palompon.png" class="agency mb-2">
 					<h5> MUNICIPALITY OF PALOMPON </h5>
 				</div>
 				<div class="col-xs-12 col-sm-6 col-lg-4">
-					<img data-src="hilongos.jpg" class="agency mb-2">
+					<img data-src="static/img/hilongos.jpg" class="agency mb-2">
 					<h5> MUNICIPALITY OF HILONGOS </h5>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-lg-4">
-					<img data-src="inopacan.png" class="agency mb-2">
+					<img data-src="static/img/inopacan.png" class="agency mb-2">
 					<h5> SEAL OF INOPACAN, LEYTE </h5>
 				</div>
 			</div>
@@ -922,4 +922,3 @@ Binahaan River System which is used to extract the drinking water provided to Ta
 </body>
 
 </html>
-

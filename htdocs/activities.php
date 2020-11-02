@@ -48,36 +48,36 @@
 					<div class="row text-center padding">			
 						<div class="col-xs-6 col-sm-6 col-md-4 lg-2"><br>
 							<div class="boxS">
-							<img data-src="fieldwork1.jpg" class="img-m img-responsive myImages" id="myImg">
+							<img data-src="static/img/fieldwork1.jpg" class="img-m img-responsive myImages" id="myImg">
 							<!--<h6>Caption titles</h6> -->
 							</div>
 						</div>
 						<div class="col-xs-6 col-sm-6 col-md-4 lg-2"><br>
 							<div class="boxS">
-							<img data-src="fieldwork2.jpg" alt="Imageholder.png" class="img-m img-responsive myImages" id="myImg">
+							<img data-src="static/img/fieldwork2.jpg" alt="Imageholder.png" class="img-m img-responsive myImages" id="myImg">
 							<!--<h6>Caption titles</h6> -->
 							</div>
 						</div>
 						<div class="col-xs-6 col-sm-6 col-md-4 lg-2"><br>
 							<div class="boxS">
-							<img data-src="fieldwork3.jpg" alt="Imageholder.png" class="img-m img-responsive myImages" id="myImg">
+							<img data-src="static/img/fieldwork3.jpg" alt="Imageholder.png" class="img-m img-responsive myImages" id="myImg">
 							</div>
 						</div>
 						<div class="col-xs-6 col-sm-6 col-md-4 lg-2"><br>
 							<div class="boxS">
-							<img data-src="fieldwork4.jpg" alt="Imageholder.jpg" class="img-m img-responsive myImages" id="myImg">
+							<img data-src="static/img/fieldwork4.jpg" alt="Imageholder.jpg" class="img-m img-responsive myImages" id="myImg">
 							<!--<h6>Caption titles</h6> -->
 							</div>
 						</div>
 						<div class="col-xs-6 col-sm-6 col-md-4 lg-2"><br>
 							<div class="boxS">
-							<img data-src="fieldwork5.jpg" alt="Imageholder.png" class="img-m img-responsive myImages" id="myImg">
+							<img data-src="static/img/fieldwork5.jpg" alt="Imageholder.png" class="img-m img-responsive myImages" id="myImg">
 							<!--<h6>Caption titles</h6> -->
 							</div>
 						</div>
 						<div class="col-xs-6 col-sm-6 col-md-4 lg-2"><br>
 							<div class="boxS">
-							<img data-src="fieldwork6.jpg" alt="Imageholder.png" class="img-m img-responsive myImages" id="myImg">
+							<img data-src="static/img/fieldwork6.jpg" alt="Imageholder.png" class="img-m img-responsive myImages" id="myImg">
 							<!--<h6>Caption titles</h6> -->
 							</div>
 						</div>

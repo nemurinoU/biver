@@ -432,37 +432,37 @@
 					<div class="row text-center padding">			
 						<div class="col-xs-6 col-sm-6 col-md-4 lg-2"><br>
 							<div class="boxS">
-							<a class="nav-link" href="Project1.php"><img src="ImageHolder.png" class="img-responsive"></a>
+							<a class="nav-link" href="Project1.php"><img src="static/img/ImageHolder.png" class="img-responsive"></a>
 							<h6>Algae</h6>
 							</div>
 						</div>
 						<div class="col-xs-6 col-sm-6 col-md-4 lg-2"><br>
 							<div class="boxS">
-							<a class="nav-link" href="Project1.php"><img src="ImageHolder.png" class="img-responsive"></a>
+							<a class="nav-link" href="Project1.php"><img src="static/img/ImageHolder.png" class="img-responsive"></a>
 							<h6>Fungal Endophytes</h6>
 							</div>
 						</div>
 						<div class="col-xs-6 col-sm-6 col-md-4 lg-2"><br>
 							<div class="boxS">
-							<a class="nav-link" href="Project1.php"><img src="ImageHolder.png" class="img-responsive"></a> 
+							<a class="nav-link" href="Project1.php"><img src="static/img/ImageHolder.png" class="img-responsive"></a> 
 							<h6>Plant</h6>
 							</div>
 						</div>
 						<div class="col-xs-6 col-sm-6 col-md-4 lg-2"><br>
 							<div class="boxS">
-							<a class="nav-link" href="Project1.html"><img src="ImageHolder.png" class="img-responsive"></a>
+							<a class="nav-link" href="Project1.html"><img src="static/img/ImageHolder.png" class="img-responsive"></a>
 							<h6>Seagrass</h6>
 							</div>
 						</div>
 						<div class="col-xs-6 col-sm-6 col-md-4 lg-2"><br>
 							<div class="boxS">
-							<a class="nav-link" href="Project1.html"><img src="ImageHolder.png" class="img-responsive"></a>
+							<a class="nav-link" href="Project1.html"><img src="static/img/ImageHolder.png" class="img-responsive"></a>
 							<h6>Water Systems</h6>
 							</div>
 						</div>
 						<div class="col-xs-6 col-sm-6 col-md-4 lg-2"><br>
 							<div class="boxS">
-							<a class="nav-link" href="Project1.html"><img src="ImageHolder.png" class="img-responsive"></a>
+							<a class="nav-link" href="Project1.html"><img src="static/img/ImageHolder.png" class="img-responsive"></a>
 							<h6>Binahaan River</h6>
 							</div>
 						</div>
@@ -479,32 +479,32 @@
 		<div class="jumbotron" id="partner">
 			<h2 class="text-center padding">Funding Agency</h2>
 			<br>
-			<img src="pcaarrd.jpg" alt="pcaarrd" id="fundingimage" class="mb-3">
+			<img src="static/img/pcaarrd.jpg" alt="pcaarrd" id="fundingimage" class="mb-3">
 			<h4> DOST - PCAARRD </h4>
 			<br><br>
 			<h2 class="text-center padding">Partner Agencies</h2>
 			<div class="row text-center padding">
 				<div class="col-xs-12 col-sm-6 col-lg-4">
-					<img src="cenro.png" class="agency mb-2">
+					<img src="static/img/cenro.png" class="agency mb-2">
 					<h5> CENRO-BAYBAY </h5>
 				</div>
 				<div class="col-xs-12 col-sm-6 col-lg-4">
-					<img src="cenro.png" class="agency mb-2">
+					<img src="static/img/cenro.png" class="agency mb-2">
 					<h5> CENRO-ORMOC </h5>
 				</div>
 				<div class="col-xs-12 col-sm-6 col-lg-4">
-					<img src="pshss.png" class="agency">
+					<img src="static/img/pshss.png" class="agency">
 				</div>
 			
 		
 				<div class="col-xs-12 col-sm-6 col-lg-4">
-					<img src="dagami.jpg" class="agency">
+					<img src="static/img/dagami.jpg" class="agency">
 				</div>
 				<div class="col-xs-12 col-sm-6 col-lg-4">
-					<img src="pastrana.jpg" class="agency">
+					<img src="static/img/pastrana.jpg" class="agency">
 				</div>
 				<div class="col-xs-12 col-sm-6 col-lg-4">
-					<img src="palompon.png" class="agency">
+					<img src="static/img/palompon.png" class="agency">
 				</div>
 			</div>
 		</div>

@@ -296,7 +296,7 @@
 					background-image: none;
 					background-color: #574fd9;
 				}.section0{
-					 background-image: url("phoneBG.png")		
+					 background-image: url("static/img/phoneBG.png")		
 			}
 			@media (min-width:768px) { 
 				.list{
@@ -317,7 +317,7 @@
 					margin-left:3vw;
 				}
 				.section0{
-			    background-image: url("backgroundMainC.png")			    
+			    background-image: url("static/img/backgroundMainC.png")			    
 				}
 
 			}
@@ -336,7 +336,7 @@
 					left: 10%;
 				}
 				.section0{
-			    background-image: url("backgroundMain2.png")			    
+			    background-image: url("static/img/backgroundMain2.png")			    
 				}
 				.section{
 					min-height: auto; 
@@ -350,7 +350,7 @@
 			}
 			@media (min-width:1200px) { 
 				.section0{
-			    background-image: url("backgroundMain.png")			    
+			    background-image: url("static/img/backgroundMain.png")			    
 				}
 				
 				.list{
@@ -367,21 +367,21 @@
 				  background-size: cover;
 				}
 				.section1{
-					background-image: url("background_2.jpg");
+					background-image: url("static/img/background_2.jpg");
 				}
 
 			}
 
 
 			.sectionB1{
-				background-image: url("background3.jpg")
+				background-image: url("static/img/background3.jpg")
 			}
 			.section2{
-				background-image: url("description1.jpg");
+				background-image: url("static/img/description1.jpg");
 				width:100%;
 			}
 			.section3{
-				background-image: url("description2.jpg");
+				background-image: url("static/img/description2.jpg");
 				width:100%;
 			}
 			
@@ -627,7 +627,7 @@
 
 					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 					
-						<img class="philippineMap mx-auto d-block" src="phillipineMap.png"  alt="...">
+						<img class="philippineMap mx-auto d-block" src="static/img/phillipineMap.png"  alt="...">
 							
 						
 					</div>
@@ -652,7 +652,7 @@
 					
 				</div>
 				<div class="d-block d-md-none">
-					<img class="philippineMap mx-auto d-block" src="region8.png"  alt="...">
+					<img class="philippineMap mx-auto d-block" src="static/img/region8.png"  alt="...">
 				</div>
 				
 
@@ -675,7 +675,7 @@
 
 					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 row-eq-height d-none d-md-block">
 					
-						<img class="philippineMap my-auto mx-auto d-block" src="region8.png"  alt="...">
+						<img class="philippineMap my-auto mx-auto d-block" src="static/img/region8.png"  alt="...">
 							
 						
 					</div>
@@ -829,7 +829,7 @@
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="sanpedro.jpg" class="d-block projectSitesImage" alt="...">
+        <img src="static/img/sanpedro.jpg" class="d-block projectSitesImage" alt="...">
         <div class="carousel-caption d-md-block">
         	<div class="translucent p-2 rounded mb-2">
           		<p class="m-0">Lake Danao</p>
@@ -840,7 +840,7 @@
         </div>
       </div>
       <div class="carousel-item">
-        <img src="sanpedro.jpg" class="d-block projectSitesImage alt="...">
+        <img src="static/img/sanpedro.jpg" class="d-block projectSitesImage alt="...">
         <div class="carousel-caption d-md-block">
           <div class="translucent p-2 rounded mb-2">
           		<p class="m-0">Lake Bito</p>
@@ -851,7 +851,7 @@
         </div>
       </div>
       <div class="carousel-item">
-        <img src="sanpedro.jpg" class="d-block projectSitesImage" alt="...">
+        <img src="static/img/sanpedro.jpg" class="d-block projectSitesImage" alt="...">
         <div class="carousel-caption d-md-block">
           <div class="translucent p-2 rounded mb-2">
           		<p class="m-0">Cuatro Islas</p>
@@ -862,7 +862,7 @@
         </div>
       </div>
       <div class="carousel-item">
-        <img src="sanpedro.jpg" class="d-block projectSitesImage" alt="...">
+        <img src="static/img/sanpedro.jpg" class="d-block projectSitesImage" alt="...">
         <div class="carousel-caption d-md-block">
           <div class="translucent p-2 rounded mb-2">
           		<p class="m-0">Kalanggaman Island</p>
@@ -873,7 +873,7 @@
         </div>
       </div>
       <div class="carousel-item">
-        <img src="sanpedro.jpg" class="d-block projectSitesImage" alt="...">
+        <img src="static/img/sanpedro.jpg" class="d-block projectSitesImage" alt="...">
         <div class="carousel-caption d-md-block">
           <div class="translucent p-2 rounded mb-2">
           		<p class="m-0">San Pedro Bay</p>
@@ -884,7 +884,7 @@
         </div>
       </div>
       <div class="carousel-item">
-        <img src="sanpedro.jpg" class="d-block projectSitesImage" alt="...">
+        <img src="static/img/sanpedro.jpg" class="d-block projectSitesImage" alt="...">
         <div class="carousel-caption d-md-block">
          <div class="translucent p-2 rounded mb-2">
           		<p class="m-0">Cancabato Bay</p>
@@ -895,7 +895,7 @@
         </div>
       </div>
        <div class="carousel-item">
-        <img src="sanpedro.jpg" class="d-block projectSitesImage" alt="...">
+        <img src="static/img/sanpedro.jpg" class="d-block projectSitesImage" alt="...">
         <div class="carousel-caption d-md-block">
           <div class="translucent p-2 rounded mb-2">
           		<p class="m-0">Binahaan River</p>
@@ -924,45 +924,45 @@
 		<div class="jumbotron" id="partner">
 			<h2 class="text-center padding">Funding Agency</h2>
 			<br>
-			<img data-src="pcaarrd.jpg" alt="pcaarrd" id="fundingimage" class="mb-3">
+			<img data-src="static/img/pcaarrd.jpg" alt="pcaarrd" id="fundingimage" class="mb-3">
 			<h4> DOST - PCAARRD </h4>
 			<br><br>
 			<h2 class="text-center padding">Partner Agencies</h2>
 			<div class="row text-center padding">
 				<div class="col-xs-12 col-sm-6 col-lg-4">
-					<img data-src="cenro.png" class="agency mb-2">
+					<img data-src="static/img/cenro.png" class="agency mb-2">
 					<h5> CENRO-BAYBAY </h5>
 				</div>
 				<div class="col-xs-12 col-sm-6 col-lg-4">
-					<img data-src="cenro.png" class="agency mb-2">
+					<img data-src="static/img/cenro.png" class="agency mb-2">
 					<h5> CENRO-ORMOC </h5>
 				</div>
 				<div class="col-xs-12 col-sm-6 col-lg-4">
-					<img data-src="pshss.png" class="agency mb-2">
+					<img data-src="static/img/pshss.png" class="agency mb-2">
 					<h5> PSHS-EVC </h5>
 				</div>
 				<div class="col-xs-12 col-sm-6 col-lg-4">
-					<img data-src="tacloban.jpg" class="agency mb-2">
+					<img data-src="static/img/tacloban.jpg" class="agency mb-2">
 					<h5> TACLOBAN CITY </h5>
 				</div>
 				<div class="col-xs-12 col-sm-6 col-lg-4">
-					<img data-src="dagami.jpg" class="agency mb-2">
+					<img data-src="static/img/dagami.jpg" class="agency mb-2">
 					<h5> MUNICIPALITY OF DAGAMI </h5>
 				</div>
 				<div class="col-xs-12 col-sm-6 col-lg-4">
-					<img data-src="pastrana.jpg" class="agency mb-2">
+					<img data-src="static/img/pastrana.jpg" class="agency mb-2">
 					<h5> MUNICIPALITY OF PASTRANA </h5>
 				</div>
 				<div class="col-xs-12 col-sm-6 col-lg-4">
-					<img data-src="palompon.png" class="agency mb-2">
+					<img data-src="static/img/palompon.png" class="agency mb-2">
 					<h5> MUNICIPALITY OF PALOMPON </h5>
 				</div>
 				<div class="col-xs-12 col-sm-6 col-lg-4">
-					<img data-src="hilongos.jpg" class="agency mb-2">
+					<img data-src="static/img/hilongos.jpg" class="agency mb-2">
 					<h5> MUNICIPALITY OF HILONGOS </h5>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-lg-4">
-					<img data-src="inopacan.png" class="agency mb-2">
+					<img data-src="static/img/inopacan.png" class="agency mb-2">
 					<h5> SEAL OF INOPACAN, LEYTE </h5>
 				</div>
 			</div>

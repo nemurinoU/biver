@@ -1,6 +1,6 @@
 <!-- ----------------------------------------------------------<UPPER NAVBAR>---------------------------------------------------- -->
 		
-		<a class="navbar-brand" href="#"><img src="logoTemp.png" class="logo"><span id="brandTitle">BiVER</span></a>
+		<a class="navbar-brand" href="#"><img src="static/img/logoTemp.png" class="logo"><span id="brandTitle">BiVER</span></a>
 					
 			<button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
 				<span class="navbar-toggler-icon"></span>
@@ -12,7 +12,7 @@
 				<ul class="navbar-nav mr-auto">
 				    <li class="nav-item">
 						<a class="nav-link" href="#" id="profile">
-						<img src="profilePic.png" class="dp">&nbsp;&nbsp; Username</a>
+						<img src="static/img/profilePic.png" class="dp">&nbsp;&nbsp; Username</a>
 					</li>
 				</ul>
 		<!-- ------------------------------------------------------------<PROFILE/>------------------------------------------------------ -->

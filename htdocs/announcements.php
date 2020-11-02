@@ -286,10 +286,10 @@ $con=mysqli_connect("localhost", "root", "biver2018");
 
 				}
 				.section2{
-					background-image: url("working.jpg");
+					background-image: url("static/img/working.jpg");
 				}
 				.section3{
-					background-image: url("tempworking.jpg")
+					background-image: url("static/img/tempworking.jpg")
 				}
 				.section{
 					 /* Set a specific height */
@@ -381,7 +381,7 @@ $con=mysqli_connect("localhost", "root", "biver2018");
 			    	if($row['article_status'] == "Active"){
 			    		echo "<div class='card mb-3'>";
 			    		if ($row['article_imgpreview'] == "") {
-			    			echo "<img class='card-img-top myImages' data-src='placeholder.png' alt='Card image cap'>";
+			    			echo "<img class='card-img-top myImages' data-src='static/img/placeholder.png' alt='Card image cap'>";
 			    		}
 			    		else {
 			    			echo "<img class='card-img-top myImages' data-src='". $row['article_imgpreview'] ."' alt='Card image cap'>";

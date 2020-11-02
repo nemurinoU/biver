@@ -1,4 +1,13 @@
-
+<?php
+	$con=mysqli_connect("210.213.193.68", "root", "BIVERproject18");
+	if (mysqli_connect_errno()){
+		echo "Failed to connect to MySQL: " . mysqli_connect_error();
+	}
+	else{
+		mysqli_select_db($con, 'str_database');
+		session_start();
+	}
+?>
 <!DOCTYPE html>
 <html>
 	<head>

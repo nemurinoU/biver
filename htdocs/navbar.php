@@ -213,7 +213,7 @@
 </style>
 </head>
 
-		<!---<a class="navbar-brand text-light mx-1" data-toggle="tooltip" data-placement="bottom" title="homepage" style="position:fixed;z-index: 105" href="./"><img src="logoTemp.png" class="logo"><span id="brandTitle"> BiVER</span></a> #can be used for later--->
+		<!---<a class="navbar-brand text-light mx-1" data-toggle="tooltip" data-placement="bottom" title="homepage" style="position:fixed;z-index: 105" href="./"><img src="static/img/logoTemp.png" class="logo"><span id="brandTitle"> BiVER</span></a> #can be used for later--->
 
 			<div id="nav">
             <nav>

@@ -124,7 +124,7 @@
 			<h1>Biodiversity and Vulnerable Ecosystems Research</h1>
 		</div>
 		<nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
-					<a class="navbar-brand"><img src="logo.png"></a>
+					<a class="navbar-brand"><img src="static/img/logo.png"></a>
 					<button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
 					<span class="navbar-toggler-icon"></span>
 					</button>
