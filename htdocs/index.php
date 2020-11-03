@@ -18,7 +18,7 @@
 		
 		<!---Character set, adjust to viewing device--->
 		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable = yes">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 		
 		<!---Website Icon and External Stylesheet--->
 		<link rel="icon" href="favicon.ico" type="image/x-icon">	
@@ -46,85 +46,94 @@
        	?>
         
         <!---Main Image Menu w/ Search Bar Section--->
-		<div id="body">
-			<div id="div2">
-				<div id="div2_1">
+		<div id="body-top">
+			<div id="body-top-container">
+				<div id="body-top-left">
 					<h1>BIODIVERSITY AND VULNERABLE ECOSYSTEMS RESEARCH</h1>
 					<p>Philippine-native species data. At your fingertips.</p>
-					<form>
-						<img src="static/img/icons/search2.png">
+					<form id="main-search">
+						<input type="image" src="static/img/icons/search2.png" alt="Submit Form" />
 						<input type="text">
 					</form>
 				</div>
-				<iframe src="https://www.youtube.com/embed/rdXe-uzzyHg">
-				</iframe>
-				<div id="div2_2">
-					<p>Corlito syrichto. Photo from Google Images. Copyright 2020.</p>
-				</div>
+					
+				<iframe src="https://www.youtube.com/embed/rdXe-uzzyHg" allowfullscreen></iframe>
+
+			</div>
+			<div id="body-top-credit">
+				<p>Cuatro Islas. Photo property of BiVER Project. &copy; BiVER 2020</p>
 			</div>
 		</div>
 
 		<!---Home Page News and Announcements Section--->
-		<div id="body2">
-			<div id="div3_1">
-				<div id="news">NEWS</div>
-                <a href="#">
-				<div id="div3_1s">
-					<img src="static/img/misc/placeholder.png">
-					<div>
-						<p id="headline">Headline</p>
-						<p id="author">by Author</p>
-					</div>
-				</div>
-                </a>
-                <a href="#">
-				<div id="div3_1s">
-					<img src="static/img/misc/placeholder.png">
-					<div>
-						<p id="headline">Headline</p>
-						<p id="author">by Author</p>
-					</div>
-				</div>
-                </a>
-                <a href="#">
-				<div id="div3_1s">
-					<img src="static/img/misc/placeholder.png">
-					<div>
-						<p id="headline">Headline</p>
-						<p id="author">by Author</p>
-					</div>
-				</div>
-                </a>
-                <a href="#">
-				<h3>SEE MORE</h3>
-                </a>
+		<div class="body-bottom">
+			<!---News on the Side--->
+			<div class="body-bottom-container">
+				<article class="body-bottom-left">
+					<h1>NEWS</h1>
+					<article class="news-left">
+						<a href="#">
+							<div class="news-thumb" style="background: url('static/img/background/cuatroislas.jpg');"></div>
+							<div class="news-info">
+						        <h2>How many alien civilizations are out there? A new galactic survey holds a clue. How many alien civilizations are out there? A new galactic survey holds a clue.</h2>
+						        <p>November 4, 2020</p>
+					    	</div>
+				    	</a>
+				    </article>
+
+				    <article class="news-left">
+				    	<div class="news-thumb" style="background: url('static/img/background/cuatroislas.jpg');"></div>
+				        <div class="news-info">
+					        <h2>How many alien civilizations are out there? A new galactic survey holds a clue. How many alien civilizations are out there? A new galactic survey holds a clue.</h2>
+					        <p>November 4, 2020</p>
+				    	</div>
+				    </article>
+
+				    <article class="news-left">
+				    	<div class="news-thumb" style="background: url('static/img/background/cuatroislas.jpg');"></div>
+				        <div class="news-info">
+					        <h2>How many alien civilizations are out there? A new galactic survey holds a clue. How many alien civilizations are out there? A new galactic survey holds a clue.</h2>
+					        <p>November 4, 2020</p>
+				    	</div>
+				    </article>
+				</article>
+
+				<article class="body-bottom-right">
+				    <h1>ACTIVITIES</h1>
+	               <article class="news-right">
+	               		<a href="#">
+		               		<div class="news-thumb" style="background: linear-gradient(to top, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 70%), url('static/img/background/cuatroislas.jpg');"></div>
+		               		
+		               		<div class="bottom-left">
+		               			 <p>November 4, 2020</p>
+		               			 <h2>The effect of pollution on people: Provide examples of how people have been changing in relation to the increase or decrease in environmental pollution</h2>
+		               		</div>
+	               		</a>
+				    </article>
+
+				    <article class="news-right-sub" style="margin-right: 1.25%">
+				    	<a href="#">
+					        <div class="news-thumb" style="background: linear-gradient(to top, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 70%), url('static/img/background/cuatroislas.jpg');"></div>
+
+					        <div class="bottom-left">
+		               			 <p>November 4, 2020</p>
+		               			 <h2>The effect of pollution on people: Provide examples of how people have been changing in relation to the increase or decrease in environmental pollution</h2>
+		               		</div>
+		               	</a>
+				    </article>
+
+				    <article class="news-right-sub" style="margin-left: 1.25%">
+				    	<a href="#">
+					    	<div class="news-thumb" style="background: linear-gradient(to top, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 70%), url('static/img/background/cuatroislas.jpg');"></div>
+
+					    	<div class="bottom-left">
+		               			 <p>November 4, 2020</p>
+		               			 <h2>The effect of pollution on people: Provide examples of how people have been changing in relation to the increase or decrease in environmental pollution</h2>
+		               		</div>
+		               	</a>
+				    </article>
+				</article>
 			</div>
-			<div id="div3_2">
-                <a href="#">
-				<div id="bpanel">
-					<div class="category">RESEARCH</div>
-					<h1>Evaluation of Microplastics in West Philippines Sea</h1>
-				</div>
-                </a>
-                <a href="#">
-				<div id="spanel1">
-					<div id="spanel1_img">
-						<div class="category">RESEARCH</div>
-					</div>
-					<h3>Pesticidal effects on Comperiella sp.</h3>
-					<p>by Gomez, A, et. al.</p>
-				</div>
-                </a>
-                <a href="#">
-				<div id="spanel2">
-					<div id="spanel2_img">
-						<div>RESEARCH</div>
-					</div>
-					<h3>Density clustering of Tilapia in Bilog Island</h3>
-					<p>by De la Cruz, K, et. al.</p>
-				</div>
-                </a>
-			</div>			
 		</div>
 
 
@@ -142,28 +151,28 @@
 				<img src="static/img/sites/bito.jpg">
 			</div>--->
 			<div id="contact_us">
-				<div id="contact_us_left">
-					<p>
-						<span style="font-family: Amiko-Regular; font-size: 1.4em">CONTACT US</span><br>
-						biverweb@evc.pshs.edu.ph <br>
-						(123) 456 789 <br><br>
-						<img src="static/img/icons/FBIcon.png">
-						<img src="static/img/icons/TwitterIcon.png">
-						<img src="static/img/icons/YTIcon.png">
-					</p>
+					<div id="contact_us_left">
+						<p>
+							<span style="font-family: Amiko-Regular; font-size: 1.4em">CONTACT US</span><br>
+							biverweb@evc.pshs.edu.ph <br>
+							(123) 456 789 <br><br>
+							<img src="static/img/icons/FBIcon.png">
+							<img src="static/img/icons/TwitterIcon.png">
+							<img src="static/img/icons/YTIcon.png">
+						</p>
+					</div>
+					<div id="contact_us_right">
+						<p>
+							<img src="static/img/logos/PCAARRD.png">
+							<img src="static/img/logos/pshss.png">
+							<img src="static/img/logos/crestLogo.png">
+							<br>Center for Research in Science and Technology<br>
+							Pawing, Palo, Leyte<br>
+							6501<br>
+							Philippines<br>
+						</p> 
+					</div>
 				</div>
-				<div id="contact_us_right">
-					<p>
-						<img src="static/img/logos/PCAARRD.png">
-						<img src="static/img/logos/pshss.png">
-						<img src="static/img/logos/crestLogo.png">
-						<br>Center for Research in Science and Technology<br>
-						Pawing, Palo, Leyte<br>
-						6501<br>
-						Philippines<br>
-					</p> 
-				</div>
-			</div>
 			<div id="copyright">
 				<p>
 					<img src="static/img/logos/biverlogo.png">

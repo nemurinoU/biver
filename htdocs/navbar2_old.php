@@ -242,9 +242,6 @@
 		        width: 0;
 		        visibility: hidden;
 	    	}
-	    	nav{
-	    		overflow-x: hidden !important;
-	    	}
 	    }
 
 	</style>
