@@ -141,13 +141,15 @@
     		width: 100%;
 	        height: 75px;
 	        background-color: white;
-	      	box-shadow: 0 4px black;
+	      	box-shadow: 0 2px #222222;
+	      	position: relative;
+	      	z-index: 100;
 	    }
 	    .nav-container{
 	    	width: 95%;
 			margin: 0 auto;
 			height: 70px;
-			overflow: hidden;
+			overflow: visible;
 	    }
 	    
 	    /*Logo and Title link on Navbar*/
@@ -214,6 +216,10 @@
 	    	display: inline-flex;
 	    	padding: 0;
 	    	border-bottom: 2px solid #3B7257;
+	    	overflow: hidden;
+	    }
+	    .hidden-links{
+	    	display: none;
 	    }
 
 	    /*Personals in Navigation Right*/
@@ -229,25 +235,83 @@
 		    margin-top: 20px;
 		    margin-left: 20px;
 	    }
+	    a.icon{
+	    	display: none;
+	    }
 
 	    /*RESPONSIVE WEBSITE FOR MOBILE DEVICES*/
 	     @media only screen and (max-width: 768px){
-	    	.nav-links{
-				visibility: hidden;
-				width: 0;
-				height: 0;
+	     	.logo-link-text h1, .nav-links, .nav-personal{ display: none; }
+	    	.nav-container a.icon {
+			    float: right;
+			    display: block;
 			}
-			.nav-personal{
-		    	height: 0;
-		        width: 0;
-		        visibility: hidden;
-	    	}
-	    	nav{
-	    		overflow-x: hidden !important;
-	    	}
+			a.icon img{
+				width: 3em;
+		    	height: 3em;
+		    	margin-top: 0.5em;
+			}
+			.nav-container.responsive { 
+				position: relative;
+				overflow: visible;
+			}
+  			.nav-container.responsive a.icon {
+   				position: absolute;
+    			right: 0;
+    			top: 0;
+    		}
+	 		.nav-container.responsive .nav-links{
+			    position: absolute;
+			    background: white;
+			    text-align: left;
+			    display: inline-block;
+			    top: 3.656em;
+			    right: 0;
+			    width: 50%;
+			    height: auto;
+			    border-right: 2px solid #222222;
+			    border-bottom: 2px solid #222222;
+			    border-left: 2px solid #222222;
+			}
+			.nav-container.responsive .nav-links ul,
+			.nav-container.responsive .nav-links li,
+			.nav-container.responsive .nav-links form{
+				position: relative;
+				display: block;
+				width: 100%;
+				overflow: hidden;
+			}
+			.hidden-links{
+				display: block;
+			}
+	    }
+	    .nav-container.responsive .nav-personal form{
+	    	position: relative;
+	    	margin-top: 1em;
+			display: block;
+			width: 100%;
+			overflow: hidden;
+			border-right: 2px solid #222222;
+		    border-bottom: 2px solid #222222;
+		    border-left: 2px solid #222222;
+	    }
+	    .nav-personal input[type="text"], .nav-personal input[type="submit"]{
+	    	font-size: 1em;
+	    	width: 80%;
+	    	float: left;
 	    }
 
 	</style>
+	<script>
+		function dropDown() {
+		  var x = document.getElementById("myNavContainer");
+		  if (x.className === "nav-container") {
+		    x.className += " responsive";
+		  } else {
+		    x.className = "nav-container";
+		  }
+		}
+	</script>
 </head>
 	<!---<a class="navbar-brand text-light mx-1" data-toggle="tooltip" data-placement="bottom" title="homepage" style="position:fixed;z-index: 105" href="./"><img src="static/img/logoTemp.png" class="logo"><span id="brandTitle"> BiVER</span></a> #can be used for later--->
 
@@ -259,30 +323,47 @@
 			$new_submits = $result[0];
 			***/
 		?>
-    	<div class="nav-container">
+    	<div class="nav-container" id="myNavContainer">
     		<!---Logo and Title Link--->
 			<div class="logo-link">
+				<a href="\biverroot/htdocs/">
 	            <img src="static/img/logos/biverlogo.png">
 
 	            <div class="logo-link-text">
 					<h1>BIVER</h1>
 				</div>
+				</a>
 			</div>
 
 			<!---Navigation Links--->
 			<div class="nav-links">
 				<ul>
-					<li><a href="announcements.php">News</a></li>
-					<li><a href="activities.php">Activities</a></li>
-					<li><a href="aboutus.php">About</a></li>
+					<a href="announcements.php"><li>News</li></a>
+					<a href="activities.php"><li>Activities</li></a>
+					<a href="aboutus.php"><li>About</li></a>
+					<a href="login.php" class="hidden-links"><li>Login</li></a>
+					<li style="padding: 0.2em 0 0.2em 0; width: 100%;">
+						<form class="hidden-links">
+							<input type="image" src="static/img/icons/search2.png" alt="Submit Form" />
+							<input type="text">	
+						</form>
+					</li>
 				</ul>
 			</div>
 
 			<!---Search Bar, Account--->
 			<div class="nav-personal">
-				<a href="#"><img src="static/img/icons/search1.png"> </a>
+				<a href="javascript:void(0);" onclick="dropDown()"><img src="static/img/icons/search1.png"> </a>
 				<a href="login.php"><img src="static/img/icons/login.png"></a>
+				<form class="hidden-links">
+					<input type="image" src="static/img/icons/search2.png" alt="Submit Form" />
+					<input type="text">	
+				</form>
 			</div>
+
+			<a href="javascript:void(0);" class="icon" onclick="dropDown()">
+				<img src="static/img/icons/dropdown.png">
+			</a>
 
 			<!---Navigation Links and Search bar for Mobile Devices--->
 		</div>
